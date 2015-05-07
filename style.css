@@ -1,0 +1,235 @@
+
+.container{
+	/*border: 2px solid black;*/
+	width: 100%;
+	background-color: #F8F8FF;
+}
+	#nav
+	{
+		/*background-color: #282828;*/
+		text-align: center;
+		position: fixed;
+		background-color: #2C3539;
+		/*height: 80px;*/
+		width: 97.8%;
+		/*left: 0;
+		top: 0;*/
+		/*width: 100%;
+		/*z-index: 10000;
+		cursor: default;*/
+	}
+	
+		#nav ul
+		{
+			margin-bottom: 0;
+		}
+	
+		#nav li
+		{
+			display: inline-block;
+			padding: 25px;
+			margin: 0 25px;
+
+		}
+		#nav a{
+			color: orange;
+		}
+
+
+		/*
+		#nav a
+		{
+			position: relative;
+			display: block;
+			color: #fff;
+			text-decoration: none;
+			outline: 0;
+		}
+		
+			#nav a:hover
+			{
+				color: #fff !important;
+			}
+			
+			#nav a.active:before
+			{
+				content: '';
+				display: block;
+				position: absolute;
+				bottom: -0.6em;
+				left: 50%;
+				margin-left: -0.75em;
+				border-left: solid 0.75em transparent;
+				border-right: solid 0.75em transparent;
+				border-top: solid 0.6em #282828;
+			}*/
+
+
+			.parallax{
+			height: 300px;
+			width:100%;
+			z-index: 1;
+			;
+
+			}
+			#parallax1{
+				background-image: url("assets/rsz_ruler.jpg");
+				background-attachment: fixed;
+				background-size: cover;
+			
+			}
+			#parallax2{
+				background-image: url("/home/faith/Desktop/PW/assets/rsz_ruler1.jpg" );
+				background-attachment: fixed;
+				background-size: cover;
+				
+			}
+			#parallax3{
+				background-image: url("/home/faith/Desktop/PW/assets/rsz_comp.jpg");
+				background-attachment: fixed;
+				background-size: cover;
+				
+			}
+			#parallax4{
+				background-image: url("/home/faith/Desktop/PW/assets/rsz_img.jpg");
+				background-attachment: fixed;
+				background-size: cover;
+				
+			}
+			.contents{
+				z-index: 2;
+				width: 100%;
+			}
+
+	
+#cont1{
+	/*border: 2px solid black;*/
+	height: 300px;
+	width: 100%
+
+}
+#cont1 h1{
+	text-align: center;
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+	font-size: 20px;
+
+}
+#cont1 img{
+	width:200px;
+	height:150px;
+}
+#cont2{
+	/*border: 2px solid black;*/
+	height:300px;
+	width: 100%;
+	background-color: #F8F8FF;
+
+}
+#cont2 h2{
+	text-align: center;
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+	font-size: 20px;
+
+}
+#cont2 p{
+	font-size: 20px;
+	
+}
+#cont2 img{
+	height:130px; 
+	width:130px;
+}
+#cont3{
+	/*border: 2px solid black*/;
+	height: 400px;
+	width: 100%;
+	background-color: #F8F8FF;
+	
+}
+#cont3 h3{
+	text-align: center;
+	font-size: 20px;
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+
+}#cont3 img{
+	width: 130px;
+	height:130px;
+}
+.button3{
+	background-color: #2C3539;
+	text-align: center;
+	float:center;
+
+}
+#cont4{
+	/*border: 2px solid black;*/
+	height: 500px;
+	width: 100%;
+	background-color: #2C3539;
+
+}
+#cont4 p {
+	text-align: center;
+	text-decoration: courier; 
+	color: white;	
+	font-family:"Gill Sans Extrabold", Helvetica, sans-serif ;
+	font-size: 20px;
+}
+#inforcontainer{
+		background: transparent;
+		position: center;
+	}
+	input.name {
+		height:50px; 
+		width:35%; 
+		float:left;
+		margin-left: 120px;
+	}
+	input.email{
+		height:50px; 
+		width:35%; 
+		float: right;
+		margin-right: 132px;
+
+	}
+	input.subject{
+		height:50px;
+		width:80%;
+		float:center;
+		margin-right: 120px;
+		margin-left: 120px;
+		margin-top: 30px;
+	}
+	input.message{
+		height:160px;
+		 width:80%; 
+		 float:center;
+		 margin-top: 30px;
+		 margin-left: 120px;
+		 margin-right: 120px;
+
+	}
+	.button{
+		background-color: gray;
+		float: center;
+		margin-left: 120px;
+		margin-top: 25px;
+
+	}
+	.footer{
+		text-align:center;
+		margin-top: 30px;
+		background-color: #2C3539;
+	}
+	.footer li{
+		color: white:;
+	}
+	hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left:120px;
+    margin-right: 120px;
+    border-style: inset;
+    border-width: 1px;
+}
